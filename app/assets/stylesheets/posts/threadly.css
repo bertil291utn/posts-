@@ -1,0 +1,153 @@
+html,
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  border-left: 2px solid #00f28f;
+  font-size: 48px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.header {
+  margin: 80px 0 100px;
+}
+
+.header p {
+  color: #a9a9a9;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+form {
+  margin: 0 0 100px;
+}
+
+form input[type='text'] {
+  background: #f0f0f0;
+  border: none;
+  border-left: 2px solid #fff;
+  font-size: 36px;
+  font-family: Montserrat, sans-serif;
+  transition: background 2s border-left 2s;
+  padding: 20px;
+}
+
+form input[type='text']:focus {
+  background: #fff;
+  border-left: 2px solid #000;
+  box-shadow: none;
+  outline: none;
+  transition: background 2s border-left 2s;
+}
+
+button.btn,
+.btn {
+  background: transparent;
+  border: none;
+  color: #00f28f;
+  cursor: pointer;
+  font-size: 36px;
+  transition: background 2s color 1s;
+  padding: 20px 24px;
+}
+
+button.btn:hover,
+.btn:hover {
+  background: #00f28f;
+  color: #fff;
+  transition: background 2s color 1s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border-left: 2px solid #000;
+  font-size: 36px;
+  opacity: 0;
+  padding-left: 20px;
+  margin: 0 0 36px;
+}
+
+li:nth-child(1) {
+  opacity: 1;
+}
+
+li:nth-child(2) {
+  opacity: 0.9;
+}
+
+li:nth-child(3) {
+  opacity: 0.8;
+}
+
+li:nth-child(4) {
+  opacity: 0.7;
+}
+
+li:nth-child(5) {
+  opacity: 0.6;
+}
+
+li:nth-child(6) {
+  opacity: 0.5;
+}
+
+li:nth-child(7) {
+  opacity: 0.4;
+}
+
+li:nth-child(8) {
+  opacity: 0.3;
+}
+
+li:nth-child(9) {
+  opacity: 0.2;
+}
+
+li:nth-child(10) {
+  opacity: 0.1;
+}
+
+li:nth-child(11) {
+  opacity: 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  form input[type='text'] {
+    width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+
+  form input[type='text'] {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
